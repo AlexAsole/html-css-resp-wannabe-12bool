@@ -11,6 +11,15 @@ p{
   padding: 0  50px;
   padding-bottom: 20px;
 }
+h1{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 #lezioni [class*="col-"] img {
   display: block;
@@ -35,16 +44,30 @@ p{
   margin-top: 50px;
 }
 
+@media screen and (max-width: 991px){
 
-h1{
-  padding-top: 25px;
-  padding-bottom: 25px;
+  .grey{
+    background: #0f0;
+  }
+
+  img{
+    height: 150px;
+  }
+
 }
 
-h3{
-  padding-top: 20px;
-  padding-bottom: 20px;
+@media screen and (max-width: 767px){
+
+  .grey{
+    background: #00f;
+  }
+
+  img{
+    height: 100px;
+  }
+
 }
+
 
 
 
